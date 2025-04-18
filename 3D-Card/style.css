@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.perspective {
+    perspective: 400px;
+}
+.cards{
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.card1, .card2{
+    height: 50vh;
+    position: absolute;
+    border-radius: 25px;
+}
+.card1{
+    transform: translateZ(-1px) ;
+}
+.card2{
+    transform: translateZ(0);
+}
+
+@keyframes rotation {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}

@@ -1,6 +1,6 @@
 # Projekty 3D w CSS
 
-To repozytorium zawiera dwa projekty animacji 3D stworzone przy użyciu CSS:
+To repozytorium zawiera projekty animacji 3D stworzone przy użyciu CSS:
 
 ## 1. Karuzela 3D
 
@@ -31,8 +31,28 @@ Kolorowy sześcian 3D obracający się jednocześnie wokół osi X i Y.
 - Złożona animacja obrotu
 - Półprzezroczyste ścianki
 
+## 3. Obracające się Karty
+
+**Pliki:**
+- `index.html` (wersja kart)
+- `style.css` (wersja kart)
+- `Graphics/front.jpg`
+- `Graphics/back.jpg`
+
+**Opis:**
+Animacja dwóch kart (obrazów) obracających się w przestrzeni 3D.
+
+**Cechy:**
+- Dwie karty ułożone w przestrzeni 3D
+- Płynna animacja obrotu
+
+**Jak uruchomić dowolny projekt:**
+1. Wybierz interesujący Cię projekt
+2. Otwórz odpowiedni plik `index.html` w nowoczesnej przeglądarce
+3. Dla projektu kart upewnij się, że masz pliki graficzne w folderze `Graphics`
+
 ## Wymagania
 Przeglądarka z obsługą transformacji 3D w CSS (Chrome, Firefox, Edge, Safari)
 
 ## Uwaga
-To są dwa osobne projekty - używaj albo wersji z karuzelą, albo z sześcianem, nie obu jednocześnie.
+To są trzy osobne projekty - używaj tylko jednego zestawu plików na raz.
